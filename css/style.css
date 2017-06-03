@@ -1,0 +1,52 @@
+body{
+	background-color: #2F4F4F;
+}
+h1, #signature{
+	font-family: Metamorphous;
+	color: black;
+}
+#box{
+	background-color: silver;
+	margin: 15%;
+}
+#top{
+	background-color: orange;
+	font-family: Metamorphous;
+	color: black;
+	border-bottom: solid;
+}
+.bottomDiv{
+	background-color: silver;
+	font-family: Metamorphous;
+	color: black;
+	border-top: solid;
+	border-bottom: solid;
+}
+#topL{
+	border-right: solid;
+}
+.buttText{
+	white-space: normal;
+}
+p{
+	max-width: 100%;
+	word-wrap: break-word;
+}
+.btn-sm{
+	border-color: silver;
+	color: black;
+}
+#logo{
+	background-size: 100%;
+	padding: 50% 20% 20% 20%;
+	border: solid;
+	border-radius: 50%;
+}
+#name{
+	text-align: center;
+}
+div{
+	white-space: nowrap;
+   	overflow: hidden;
+   	text-overflow: ellipsis;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch TV</title>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src="js/index.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="container-fluid">
+	<h1 class="text-center">TWITCH STREAMERS</h1>
+	<br>
+	<div class="row text-center">
+<!-- 		<div class="col"></div> -->
+		<div id="box" class="col">
+			<!--Inner boxes goes here-->
+			<div id="top" class="row">
+				<!--Inner box top-->
+				<div id="topL" class="col">
+					<!--Inner box top left-->
+					<p>STREAMER STATUS</p>
+				</div>
+				<div class="col">
+					<!--Inner box top right-->
+					<div class="row">
+						<div class="col">
+							<!--Button all-->
+							<button id="all" class="btn-sm btn-block btn-outline-secondary">all</button>
+						</div>
+						<div class="col">
+							<!--Button online-->
+							<button id="on" class="btn-sm btn-block btn-outline-secondary">on</button>
+						</div>
+						<div class="col">
+							<!--Button offline-->
+							<button id="off" class="btn-sm btn-block btn-outline-secondary">off</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<span id="bottomAll"></span>
+	 			<!--Inner box bottom all-->
+			<span id="bottomOn"></span>
+				<!--Inner box bottom on-->
+			<span id="bottomOff"></span>
+				<!--Inner box bottom off-->
+		</div>
+	</div>
+	<br>
+	<h4 id="signature" class="text-center">Developed by Tony Wagdi</h4>
+</div>
+</body>
+</html>
