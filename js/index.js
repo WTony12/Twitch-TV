@@ -44,7 +44,7 @@ $(document).ready(function(){
 				if(data.name === undefined)
 				{
 					status = "Account Closed";
-					$("#bottomAll").append(addBlock(user, user, status, "http://res.cloudinary.com/tsw12/image/upload/v1495589099/error-icon-25243_oyvilu.png"));
+					$("#bottomAll").append(addBlock(user, user, status, "./Resources/error.png"));
 				}
 				else if(stream === 0)
 				{
